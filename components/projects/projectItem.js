@@ -34,6 +34,7 @@ export default function ProjectItem({ data }) {
           objectFit="cover"
           quality={100}
           alt="cover image"
+          priority
         />
         <div className="flex flex-col items-start justify-center px-4 my-1">
           <h1 className="my-2 text-lg font-bold sm:text-2xl md:text-3xl">{title}</h1>
